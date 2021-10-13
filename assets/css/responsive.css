@@ -1,0 +1,42 @@
+@media (min-width: 1024px) {
+    .pc {
+        display: block;
+    }
+}
+   
+@media (max-width: 740px) {
+/* #header {
+ width: 70%;
+} */
+.lose,
+.duall,
+.dual {
+ display: none;
+}
+.nav li a {
+    padding: 0 5px;
+}
+/* Cột trái */
+#content {
+    margin-left: 10px;
+}
+.layout-content {
+    width: 150%;
+}
+/* .layout-sub {
+    display: none;
+} */
+#slider {
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.calen {
+    margin-top: 10px;
+}
+.left {
+    margin-left: 25px;
+}
+#footer {
+    width: 236%;
+}
+}
